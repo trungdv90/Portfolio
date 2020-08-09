@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,800");
+body {
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  color: #797979;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #797979;
+}
+
+.section-margin {
+  margin: 50px 0;
+}
+@media (min-width: 600px) {
+  .section-margin {
+    margin: 80px 0;
+  }
+}
+@media (min-width: 1200px) {
+  .section-margin {
+    margin: 120px 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pb-xl-300px {
+    padding-bottom: 300px !important;
+  }
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+a:hover, a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+button.primary_btn {
+  border: 0;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+
+.p0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.white_bg {
+  background: #fff !important;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.mt-35 {
+  margin-top: 35px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
